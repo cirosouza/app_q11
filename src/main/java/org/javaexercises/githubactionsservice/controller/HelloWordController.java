@@ -11,4 +11,10 @@ public class HelloWordController {
         return "Hello World";
     }
 
+    @GetMapping("/brasil")
+    public String helloBrasil() {
+        return "Hello Brasil";
+    }
+
 }
+git sta
